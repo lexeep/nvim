@@ -24,7 +24,7 @@ return {
 				"yaml",
 			},
 			-- Autoinstall languages that are not installed
-			auto_install = true,
+			auto_install = false,
 			highlight = {
 				enable = true,
 				-- Some languages depend on vim's regex highlighting system (such as Ruby) for indent rules.
@@ -32,7 +32,7 @@ return {
 				--  the list of additional_vim_regex_highlighting and disabled languages for indent.
 				additional_vim_regex_highlighting = { "ruby" },
 			},
-			indent = { enable = true, disable = { "ruby", "lua" } },
+			indent = { enable = true, disable = { "ruby", "lua", "tsx" } },
 		},
 		-- There are additional nvim-treesitter modules that you can use to interact
 		-- with nvim-treesitter. You should go explore a few and see what interests you:

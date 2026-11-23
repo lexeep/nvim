@@ -1,4 +1,5 @@
-require 'config.options'
-require 'config.keybindings'
-require 'config.lazy'
-require 'config.plugins'
+require("config.options")
+require("config.godot")
+require("config.keybindings")
+require("config.lazy")
+require("config.plugins")

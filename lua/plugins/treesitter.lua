@@ -22,6 +22,8 @@ return {
 				"tsx",
 				"css",
 				"yaml",
+				"gdscript",
+				"godot_resource",
 			},
 			-- Autoinstall languages that are not installed
 			auto_install = true,
@@ -32,7 +34,7 @@ return {
 				--  the list of additional_vim_regex_highlighting and disabled languages for indent.
 				additional_vim_regex_highlighting = { "ruby" },
 			},
-			indent = { enable = true, disable = { "ruby", "lua" } },
+			indent = { enable = true, disable = { "ruby", "lua", "gdscript", "godot_resource" } },
 		},
 		-- There are additional nvim-treesitter modules that you can use to interact
 		-- with nvim-treesitter. You should go explore a few and see what interests you:

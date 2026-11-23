@@ -1,7 +1,6 @@
 local function get_plugins()
 	local plugins = {
 		"NMAC427/guess-indent.nvim",
-
 		{
 			"lukas-reineke/indent-blankline.nvim",
 			-- Enable `lukas-reineke/indent-blankline.nvim`

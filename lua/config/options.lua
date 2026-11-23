@@ -15,6 +15,8 @@ vim.o.cursorline = true
 vim.o.showmode = false
 vim.o.swapfile = false
 
+--vim.o.winborder = "rounded"
+
 vim.o.scrolloff = 10
 vim.o.sidescrolloff = 8
 

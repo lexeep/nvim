@@ -22,7 +22,7 @@ return {
 
 			require("mini.icons").mock_nvim_web_devicons()
 			require("mini.icons").setup({
-				style = "ascii",
+				style = "glyph",
 			})
 
 			-- Simple and easy statusline.
